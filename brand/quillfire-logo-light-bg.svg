@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1468 420" role="img" aria-label="Quillfire Labs">
+  <g transform="translate(0 -6) scale(.66)">
+  <defs>
+    <linearGradient id="ql-f" gradientUnits="userSpaceOnUse" x1="150" y1="600" x2="505" y2="35">
+      <stop offset="0" stop-color="#ffd9b8"/><stop offset=".35" stop-color="#ffb47a"/><stop offset=".62" stop-color="#f47321"/><stop offset="1" stop-color="#d9481a"/>
+    </linearGradient>
+    <linearGradient id="ql-o" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#e4521b"/><stop offset="1" stop-color="#ff9a2e"/>
+    </linearGradient>
+    <mask id="ql-m" maskUnits="userSpaceOnUse" x="0" y="0" width="640" height="640">
+      <rect width="640" height="640" fill="#fff"/>
+      <g fill="#000">
+        <path d="M478 150 Q430 168 392 160 Q440 150 470 132 Z"/>
+        <path d="M430 262 Q370 270 335 262 Q385 252 418 236 Z"/>
+        <path d="M360 372 Q305 378 272 372 Q318 362 350 346 Z"/>
+        
+      </g>
+      <path d="M156 598 C210 440 300 270 462 92" fill="none" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <path d="M64 436 C12 512 54 590 176 590 C312 592 468 532 584 452 C466 520 312 566 192 566 C94 566 44 518 64 436 Z" fill="url(#ql-o)"/>
+  <g mask="url(#ql-m)">
+    <path d="M150 604 C112 476 146 366 200 304 C214 232 250 184 310 140 C284 184 270 212 266 240 C294 182 344 116 420 58 C396 102 386 128 386 150 C424 96 470 50 522 12 C518 134 472 254 398 338 C316 430 220 506 150 604 Z" fill="url(#ql-f)"/>
+  </g>
+</g>
+  <g transform="translate(470 150)" fill="none" stroke="#10151c" stroke-width="24" stroke-linejoin="miter">
+  <ellipse cx="70" cy="60" rx="58" ry="48"/><path d="M88 92 L150 118"/>
+  <path d="M186 0 V62 A48 48 0 0 0 282 62 V0"/>
+  <path d="M330 0 V120"/>
+  <path d="M378 0 V108 H454"/>
+  <path d="M490 0 V108 H566"/>
+  <path d="M602 120 V12 H682 M602 62 H670"/>
+  <path d="M718 0 V120"/>
+  <path d="M766 120 V12 H818 A25 25 0 0 1 818 62 H766 M814 62 L860 120"/>
+  <path d="M978 12 H898 V108 H978 M898 60 H968"/>
+  </g>
+  <g transform="translate(828.0 310)" fill="none" stroke="#4b5461" stroke-width="9">
+  <path d="M4.5 0 V39.5 H34"/>
+  <path d="M68 44 L93 0 L118 44 M79 30 H107"/>
+  <path d="M156.5 44 V4.5 H176 A9.5 9.5 0 0 1 176 23.5 H156.5 M176 23.5 A8 8 0 0 1 176 39.5 H156.5"/><path d="M176 23.5 A10 8 0 0 1 176 39.5"/>
+  <path d="M259 9 C254 3 232 1 230 12 C228 24 260 19 260 32 C260 45 235 45 227 37"/>
+  </g>
+  <path d="M470 332 L788.0 329 L788.0 335 Z" fill="#f47321"/>
+  <path d="M1130.0 329 L1448 332 L1130.0 335 Z" fill="#f47321"/>
+</svg>

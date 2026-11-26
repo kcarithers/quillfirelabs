@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Quillfire Labs"><rect width="640" height="640" rx="128" fill="#07080a"/><g transform="translate(20 10) scale(.94)">
+  <defs>
+    <linearGradient id="md-f" gradientUnits="userSpaceOnUse" x1="150" y1="600" x2="505" y2="35">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".4" stop-color="#f4efe8"/>
+      <stop offset=".56" stop-color="#ffa25a"/><stop offset=".8" stop-color="#f47321"/><stop offset="1" stop-color="#e4521b"/>
+    </linearGradient>
+    <linearGradient id="md-o" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#e4521b"/><stop offset="1" stop-color="#ff9a2e"/>
+    </linearGradient>
+    <mask id="md-m" maskUnits="userSpaceOnUse" x="0" y="0" width="640" height="640">
+      <rect width="640" height="640" fill="#fff"/>
+      <g fill="#000">
+        <path d="M478 150 Q430 168 392 160 Q440 150 470 132 Z"/>
+        <path d="M430 262 Q370 270 335 262 Q385 252 418 236 Z"/>
+        <path d="M360 372 Q305 378 272 372 Q318 362 350 346 Z"/>
+        
+      </g>
+      <path d="M156 598 C210 440 300 270 462 92" fill="none" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <path d="M64 436 C12 512 54 590 176 590 C312 592 468 532 584 452 C466 520 312 566 192 566 C94 566 44 518 64 436 Z" fill="url(#md-o)"/>
+  <g mask="url(#md-m)">
+    <path d="M150 604 C112 476 146 366 200 304 C214 232 250 184 310 140 C284 184 270 212 266 240 C294 182 344 116 420 58 C396 102 386 128 386 150 C424 96 470 50 522 12 C518 134 472 254 398 338 C316 430 220 506 150 604 Z" fill="url(#md-f)"/>
+  </g>
+</g></svg>

@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Dark-first palette taken from the Quillfire Labs logo:
+   near-black ground, white type, fire-orange accent. */
+@theme {
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, monospace;
+
+  --color-paper: #07080a;    /* page background (matches logo ground) */
+  --color-surface: #111317;  /* cards, footer, menus */
+  --color-ink: #f5f3ef;      /* primary text */
+  --color-line: #23262c;     /* borders */
+
+  --color-slate-500: #858d98; /* tertiary text */
+  --color-slate-600: #a4acb6; /* secondary text */
+  --color-slate-700: #cdd2d8; /* body emphasis */
+
+  --color-ember-500: #f47321; /* logo orange — fills, dots, buttons */
+  --color-ember-600: #ff8a3d; /* accent text on dark (AA contrast) */
+  --color-ember-700: #ffa96f; /* hover */
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; color-scheme: dark; }
+  body { @apply bg-paper font-sans text-ink antialiased; }
+  ::selection { background: color-mix(in srgb, var(--color-ember-500) 45%, transparent); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+}
+
+@utility container-page { @apply mx-auto w-full max-w-6xl px-5 sm:px-8; }
+@utility eyebrow { @apply font-mono text-xs font-medium tracking-[0.14em] text-slate-500 uppercase; }
+@utility focus-ring { @apply outline-none focus-visible:ring-2 focus-visible:ring-ember-500 focus-visible:ring-offset-2 focus-visible:ring-offset-paper; }
+@utility link-quiet { @apply text-slate-600 transition-colors hover:text-ink; }
+@utility link-accent { @apply text-ember-600 underline-offset-4 hover:text-ember-700 hover:underline; }
+@utility btn-primary { @apply inline-flex min-h-11 items-center justify-center rounded-full bg-ember-500 px-6 py-3 text-sm font-semibold text-paper transition hover:bg-ember-600 focus-ring; }
+@utility btn-secondary { @apply inline-flex min-h-11 items-center justify-center rounded-full border border-ink/25 px-6 py-3 text-sm font-medium text-ink transition hover:border-ink/60 focus-ring; }
+
+@utility prose-page {
+  @apply max-w-3xl leading-relaxed text-slate-700;
+  & h2 { @apply mt-12 mb-3 text-xl font-semibold tracking-tight text-ink; }
+  & p, & ul { @apply mt-4; }
+  & ul { @apply list-disc space-y-2 pl-5; }
+  & a { @apply text-ember-600 underline underline-offset-4; }
+}
