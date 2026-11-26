@@ -30,7 +30,6 @@ export const ventures: Venture[] = [
       "Savings tracking and reward requests",
       "Manager approvals for tasks and transactions",
     ],
-    status: "live",
   },
   {
     slug: "kodatrax",
