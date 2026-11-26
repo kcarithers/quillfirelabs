@@ -5,7 +5,7 @@ import { statusLabel } from "@/lib/products";
 export function StatusBadge({ status }: { status: Venture["status"] }) {
   if (!status) return null;
   const tone =
-    status === "available"
+    status === "live"
       ? "border-emerald-400/30 bg-emerald-400/10 text-emerald-300"
       : "border-ember-500/30 bg-ember-500/10 text-ember-600";
   return (

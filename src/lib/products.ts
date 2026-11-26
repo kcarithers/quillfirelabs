@@ -1,7 +1,7 @@
 // Single source of truth for the Quillfire Labs portfolio.
 // Add an entry here and it appears on the home page, portfolio page and footer.
 
-export type VentureStatus = "available" | "in-development" | "beta";
+export type VentureStatus = "live" | "in-development" | "beta";
 
 export type Venture = {
   slug: string;
@@ -30,7 +30,7 @@ export const ventures: Venture[] = [
       "Savings tracking and reward requests",
       "Manager approvals for tasks and transactions",
     ],
-    status: "available",
+    status: "live",
   },
   {
     slug: "kodatrax",
@@ -62,7 +62,7 @@ export const ventures: Venture[] = [
 ];
 
 export const statusLabel: Record<VentureStatus, string> = {
-  available: "Available",
+  live: "Live",
   beta: "Beta",
   "in-development": "In development",
 };
