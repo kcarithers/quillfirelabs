@@ -23,7 +23,6 @@ export default function ContactPage() {
       <PageHeader
         eyebrow="Contact"
         title="Get in touch."
-        intro={`Every message goes to ${site.email} and is read by a person. We aim to reply within a few business days.`}
       />
       <div className="container-page py-16 sm:py-20">
         <ul className="grid gap-6 md:grid-cols-3">

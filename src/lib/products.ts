@@ -34,7 +34,7 @@ export const ventures: Venture[] = [
   {
     slug: "kodatrax",
     name: "KodaTrax",
-    url: "https://kodatrax.app",
+    // url: "https://kodatrax.app", — add back when ready to promote
     tagline: "Team management built for small-sided youth soccer.",
     summary:
       "A soccer team management app focused on small-sided youth soccer, bringing team organization, formations, player rotations and coaching tools into one place.",
